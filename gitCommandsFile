@@ -1,0 +1,52 @@
+// commands here are used in Bash for git version build system. bash is just a shell .commands not starting with git are bash specific.
+
+1. ls //list all file in a directory
+2. ls -a //list all files in a directory including hidden files like .git etc
+3. ls -1 //list all files in a directory vertically.
+4. cd  //move to origin directory
+5. cd <folder-name> //move to folder with <folder-name> if it exits in the current directory.
+
+6. git init // this will make current directory/folder a local repository. a repository is a folder in which all changes are tracked.github deals in repositories
+7  git init <repository-name>// this will make a new repositories by <repository-name>
+
+8. git log //   will list all the commits done so far in the repository.
+9. git log -oneline  //will list all the commits done so far in the repository but in single line each with less detail.
+
+10. git status //this will list changes that are made but not added to stagging area,or changes that are in stating area but not commited.
+
+11. git add <folder-name> //this will add file with file name<folder-name> to which changes are made to stagging are.
+12. git add . //this will add all files in repository to which changes are made to stagging area.
+
+13. git commit -m "message"// this will commit changes to all the files in stagging area with a message.
+
+14. git --version // show version of current git installed
+15. git --help // show git commands
+
+16. git checkout <commit no>// this will move you to specific commit number but no changes made all commits still exist..
+	also to move back to master branch use git checkout master.
+	
+17. git checkout master //this will move cursor back to master branch
+
+18. git remote // this will show if any remote is setup for current repository. remote is a remote github repository.
+19. git remote add origin <URL> // this will add repository at the <URL> as a remote repository ,locally it will have alias "origin". 
+	remote repository is the one to which changes can be pushed and pulled to local repository.
+
+20. git push origin master //this will push master branch to a remote repository whose alias is origin.
+21. git push -f origin master //this will "forcefully" push master branch to a remote repository whose alias is origin.
+	its used if commits in local repository are less than remote repository,as normal push does not allow this.
+
+22. git pull origin master // this will pull master branch from remote repository (whose alias is set to as origin) to local repository.
+
+23. git clone <URL> //this will download repository from repository at URL<URL> to local machine.
+
+24. git revert <commit-no> //this will add another commit which will revert changes done in commit no <commit-no>.
+	it considerd safe as we have all original commits ,just one new commit is added. 
+	
+25. git reset <commit-no> //this will permanantly delete commits done after commit no <commit-no>. 
+	this will pop a confirmation screen , just press "shift" + ":" ,then type wq to exit this confirmation prompt.
+	
+26. git reset <commit-no> --hard  //this will permanantly delete commits done after commit no <commit-no> without giving any confirmation prompt.
+	
+27. git branch //this with show the name of current branch.
+
+
