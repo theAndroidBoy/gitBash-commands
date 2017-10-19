@@ -51,6 +51,7 @@
 27. git branch //this with show the name of all the local branches including the current branch.
 28. git branch -D <branch-name>// this will delete the branch with name <branch-name> hard and will not ask for confirmation.
 
-
+29. git merge <branch-name> //this will merge the branch with <branch-name> to current branch. also its then safe
+	to delete <branch-name> after this ,no data will be lost
 
 
