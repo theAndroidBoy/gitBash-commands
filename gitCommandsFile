@@ -30,6 +30,7 @@
 18. git remote // this will show if any remote is setup for current repository. remote is a remote github repository.
 19. git remote add origin <URL> // this will add repository at the <URL> as a remote repository ,locally it will have alias "origin". 
 	remote repository is the one to which changes can be pushed and pulled to local repository.
+19a. git remote remove origin //this will remove existing remote if its name origin,remote is usually named to origin. 
 
 20. git push origin master //this will push master branch to a remote repository whose alias is origin.
 21. git push -f origin master //this will "forcefully" push master branch to a remote repository whose alias is origin.
@@ -48,5 +49,7 @@
 26. git reset <commit-no> --hard  //this will permanantly delete commits done after commit no <commit-no> without giving any confirmation prompt.
 	
 27. git branch //this with show the name of current branch.
+
+
 
 
