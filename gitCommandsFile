@@ -49,6 +49,7 @@
 26. git reset <commit-no> --hard  //this will permanantly delete commits done after commit no <commit-no> without giving any confirmation prompt.
 	
 27. git branch //this with show the name of current branch.
+28. git branch -D <branch-name>// this will delete the branch with name <branch-name> hard and will not ask for confirmation.
 
 
 
