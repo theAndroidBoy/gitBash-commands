@@ -48,9 +48,11 @@
 	
 26. git reset <commit-no> --hard  //this will permanantly delete commits done after commit no <commit-no> without giving any confirmation prompt.
 	
-27. git branch //this with show the name of all the local branches including the current branch.
+27. git branch //this will show the name of all the local branches including the current branch.
 28. git branch -D <branch-name>// this will delete the branch with name <branch-name> hard and will not ask for confirmation.
 28a. git branch -m <old-branch-name> <new-branch-name> //this will rename branch to new branch name <new-branch-name>.
+28b. git branch -a //this will list all branches local and remote.
+28c. git branch -r //this will list only remote branches.
 
 29. git merge <branch-name> //this will merge the branch with <branch-name> to current branch. also its then safe
 	to delete <branch-name> after this ,no data will be lost
