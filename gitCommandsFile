@@ -53,6 +53,7 @@
 28a. git branch -m <old-branch-name> <new-branch-name> //this will rename branch to new branch name <new-branch-name>.
 28b. git branch -a //this will list all branches local and remote.
 28c. git branch -r //this will list only remote branches.
+28d. git push origin --delete <the_remote_branch> //this will remove a remote branch named <the_remote_branch>
 
 29. git merge <branch-name> //this will merge the branch with <branch-name> to current branch. also its then safe
 	to delete <branch-name> after this ,no data will be lost
