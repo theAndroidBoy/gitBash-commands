@@ -18,6 +18,7 @@
 12. git add . //this will add all files in repository to which changes are made to stagging area.
 
 13. git commit -m "message"// this will commit changes to all the files in stagging area with a message.
+13a.git commit --amend -m "new commit message"// this will change the commit message of existing commit.
 
 14. git --version // show version of current git installed
 15. git --help // show git commands
